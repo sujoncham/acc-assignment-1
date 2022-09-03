@@ -19,7 +19,8 @@ app.get('/user/all', (req, res)=>{
 
 app.get('/user/all/:id', (req, res)=>{
     const {id} = req.params;
-    let foundUser = users.find(user => user.id === id)
+    console.log(id);
+    let foundUser = users.find(user => user.id === Number(id))
     res.send(foundUser);
 });
 
