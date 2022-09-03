@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "gender": "Male",
+    "name": "Faizul Azim",
+    "job": "true",
+    "contact": "+8801744709489",
+    "address": { "city": "Dhaka", "country": "BD" },
+    "photoUrl": "https://i.ibb.co/MC2M3bc/IMG-20180808-134604.jpg"
+  },
+  {
+    "id": 2,
+    "gender": "Male",
+    "name": "Hamid Azad",
+    "job": "false",
+    "contact": "+8801744709489",
+    "address": { "city": "Chattagram", "country": "BD" },
+    "photoUrl": "https://i.ibb.co/MC2M3bc/IMG-20180808-134604.jpg"
+  },
+  {
+    "id": 3,
+    "gender": "Male",
+    "name": "Meherab Hossain",
+    "contact": "+8801744709489",
+    "job": "true",
+    "address": { "city": "Mymensingh", "country": "BD" },
+    "photoUrl": "https://i.ibb.co/MC2M3bc/IMG-20180808-134604.jpg"
+  },
+  {
+    "id": 4,
+    "gender": "Male",
+    "name": "Iqbal Mahamud",
+    "job": "false",
+    "contact": "+8801744709489",
+    "address": { "city": "Chattagram", "country": "BD" },
+    "photoUrl": "https://i.ibb.co/MC2M3bc/IMG-20180808-134604.jpg"
+  }
+]
