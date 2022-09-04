@@ -8,25 +8,9 @@ app.use(express.json());
 
 app.use('/users/', userRouter);
 
-// app.patch("/user/bulk-update", (req, res) => {
-//     const users = fs.readFileSync("./users.json", "utf-8");
-//     const user = JSON.parse(users);
-//     const ids = req.body.ids;
-//     const updatedData = req.body.data;
-//    if(ids && updatedData){
-//     const updatedUser = user.map(user => {
-//       if (ids.includes(user.id)) {
-//         return { ...user, ...updatedData };
-//       } else {
-//         return user;
-//       }
-//     })
-//     fs.writeFileSync("./users.json", JSON.stringify(updatedUser));
-//     res.status(200).send(updatedUser);
-// }
-
-// });
-
+app.all('/', (req, res)=>{
+    res.send(__dirname + './index.html');
+})
 
 
 app.listen(port, ()=>{
